@@ -14,7 +14,7 @@ We evaluate ADMDiff on three widely used public benchmarks and demonstrate its e
 The main experimental results are summarized in the following table.  
 Our method achieves superior performance on the majority of evaluation metrics across multiple benchmark datasets.
 
-(Results table should be added here.)
+![Image Description](result.png)
 
 ---
 
