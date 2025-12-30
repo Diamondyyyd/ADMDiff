@@ -1,0 +1,10 @@
+decomp:
+  window_size: 100
+  model_dim: 512
+  ff_dim: 2048
+  atten_dim: 64
+  time_num: 5
+  block_num: 2
+  head_num: 8
+  dropout: 0.6
+  d: 30

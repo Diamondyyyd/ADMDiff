@@ -1,0 +1,36 @@
+
+#type: args
+
+train:
+  epochs: 100
+  batch_size: 12
+ 
+  lr: 1.0e-4
+
+diffusion:
+  layers: 4 
+  channels: 64 
+  nheads: 8
+  diffusion_embedding_dim: 128
+  side_dim: 25                     
+  beta_start: 0.0001
+  beta_end: 0.5
+  num_steps: 50
+  schedule: "quad"
+
+  use_improved_transformers: true    
+  temporal_scales: [1, 2, 4]       
+  sparsity_ratio: 0.1               
+  use_memory_efficient: true        
+
+model:
+  is_unconditional: 0
+  timeemb: 128
+  featureemb: 16
+  timestamp_emb_dim: 16            
+  target_strategy: "random"
+ 
+  use_anomaly_aware: true         
+  anomaly_enhancement_strength: 0.1 
+  gate_fusion_strength: 0.8       
+  skip_norm_enabled: true          
