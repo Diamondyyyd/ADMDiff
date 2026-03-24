@@ -44,7 +44,7 @@ pip install -r requirements.txt
 Before training the diffusion model, the decomposition module should be trained first. For example, using the SMD dataset:
 
 ```shell
-python d3r_decomposer.py --dataset SMD --device 0
+python decomposer.py --dataset SMD --device 0
 ```
 
 After the decomposition model is trained, run the following command to train ADMDiff:
